@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #e26868;
+  font-family: "Poppins", sans-serif;
+
+  color: #ededed;
+}
+main {
+  display: flex;
+  margin-top: 5rem;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+label {
+  display: block;
+}
+
+input {
+  background: #ededed;
+  border: none;
+  border-radius: 0.12rem;
+}
+
+form > * {
+  margin: 0.5rem 0;
+}
+
+#result {
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 1rem;
+  background-color: #d8d9cf;
+  color: black;
+  padding: 0 3rem;
+  border-radius: 0.75rem;
+  transition: all 0.5s ease-in;
+}
+h3 {
+  font-weight: 500;
+}
+#salary-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#calculate {
+  background-color: #ff8787;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
